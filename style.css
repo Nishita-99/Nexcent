@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --fw-semi-bold: 600;
+  --fw-semi-medium: 500;
+  --fw-semi-regular: 400;
+  --green: #4caf4f;
+  --h1: 64px;
+  --h2: 36px;
+  --h3: 28px;
+  --h4: 20px;
+  --b1: 18px;
+  --b2: 16px;
+  --b3: 14px;
+  --b4: 12px;
+}
+
+body {
+  font-family: "Inter", serif;
+}
+
+/* header start  */
+.navigation a {
+  font-size: var(--b2);
+  font-weight: var(--fw-semi-regular);
+}
+
+.log {
+  color: var(--green);
+  font-size: var(--b3);
+}
+
+.Sign {
+  background-color: var(--green);
+}
+/* header end  */
+
+/* hero area start */
+.hero-hl {
+  font-size: var(--h1);
+  font-weight: var(--fw-semi-bold);
+}
