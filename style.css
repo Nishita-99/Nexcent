@@ -155,9 +155,9 @@ body {
   background-color: var(--green);
   border: none;
 }
-/* pixelgrade area end */
+/* design area end */
 
-/*  area start */
+/* testimonial area start */
 .testimonial p {
   color: #717171;
   font-weight: var(--fw-semi-regular);
@@ -178,4 +178,52 @@ body {
 
 .customer-more h5 {
   color: var(--green);
+}
+/* testimonial area end */
+
+/* marketing area start */
+.marketing {
+  margin: 50px 70px 140px;
+  /* padding-bottom: 50px; */
+  position: relative;
+}
+
+.marketing h2 {
+  color: var(--d_gray);
+  font-weight: var(--fw-semi-bold);
+}
+
+.marketing p {
+  color: #717171;
+  font-weight: var(--fw-semi-regular);
+  width: 50%;
+}
+
+.marketing-card-1 {
+  border-radius: 8px;
+  position: absolute;
+  width: 90%;
+  top: 80%;
+  left: 65%;
+  transform: translate(-50%, -50%);
+}
+
+.marketing-card-2 {
+  /* border: none; */
+  border-radius: 8px;
+  position: absolute;
+  width: 90%;
+  bottom: -44%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 100;
+}
+
+.marketing-card-3 {
+  border-radius: 8px;
+  position: absolute;
+  width: 90%;
+  bottom: -36%;
+  right: -9%;
+  transform: translate(-50%, -50%);
 }
