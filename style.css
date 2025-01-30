@@ -10,6 +10,8 @@
   --fw-semi-bold: 600;
   --fw-semi-medium: 500;
   --fw-semi-regular: 400;
+  --d_gray: #4d4d4d;
+  --l-gray: #89939e;
   --green: #4caf4f;
   --h1: 64px;
   --h2: 36px;
@@ -38,11 +40,142 @@ body {
 
 .Sign {
   background-color: var(--green);
+  border: none;
 }
 /* header end  */
 
 /* hero area start */
+.hero-heading {
+  width: 100%;
+}
+
 .hero-hl {
   font-size: var(--h1);
   font-weight: var(--fw-semi-bold);
+  color: var(--d_gray);
+}
+
+.hero-hl span {
+  color: var(--green);
+}
+
+.hero-heading {
+  color: #717171;
+}
+
+.hero-btn {
+  background-color: var(--green);
+  border: none;
+}
+/* hero area end */
+
+/* client area start */
+.client h2 {
+  color: var(--d_gray);
+  font-weight: var(--fw-semi-bold);
+}
+
+.client p {
+  color: #717171;
+  font-weight: var(--fw-semi-regular);
+}
+/* client area end */
+
+/* community area start */
+.community h2 {
+  color: var(--d_gray);
+  font-weight: var(--fw-semi-bold);
+}
+
+.community p {
+  color: #717171;
+  font-weight: var(--fw-semi-regular);
+}
+
+.community-des {
+  padding: 24px 32px;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+}
+
+.community-des h4 {
+  color: var(--d_gray);
+  font-weight: var(--fw-semi-bold);
+}
+/* community area end */
+
+/* pixelgrade area start */
+.pixelgrade h2 {
+  color: var(--d_gray);
+  font-weight: var(--fw-semi-bold);
+}
+
+.pixelgrade p {
+  color: #717171;
+  font-weight: var(--fw-semi-regular);
+}
+
+.pixelgrade-btn {
+  background-color: var(--green);
+  border: none;
+}
+/* pixelgrade area end */
+
+/* achievement area start */
+.achievement-head h2 {
+  color: var(--d_gray);
+  font-weight: var(--fw-semi-bold);
+}
+
+.achievement-head span {
+  color: var(--green);
+}
+
+.achievement-head p {
+  color: #717171;
+  font-weight: var(--fw-semi-regular);
+}
+
+.achievement-detail h3 {
+  color: var(--d_gray);
+}
+/* achievement area end */
+
+/* design area start */
+.design h2 {
+  color: var(--d_gray);
+  font-weight: var(--fw-semi-bold);
+}
+
+.design p {
+  color: #717171;
+  font-weight: var(--fw-semi-regular);
+}
+
+.design-btn {
+  background-color: var(--green);
+  border: none;
+}
+/* pixelgrade area end */
+
+/*  area start */
+.testimonial p {
+  color: #717171;
+  font-weight: var(--fw-semi-regular);
+}
+
+.testimonial h4 {
+  color: var(--green);
+}
+
+.testimonial .commentor {
+  color: var(--l-gray);
+}
+
+.customer {
+  width: 100%;
+  /* gap: 15rem; */
+}
+
+.customer-more h5 {
+  color: var(--green);
 }
