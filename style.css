@@ -13,6 +13,9 @@
   --d_gray: #4d4d4d;
   --l-gray: #89939e;
   --green: #4caf4f;
+  --silver: #f5f7fa;
+  --white: #fff;
+  --black: #263238;
   --h1: 64px;
   --h2: 36px;
   --h3: 28px;
@@ -71,6 +74,7 @@ body {
 
 /* client area start */
 .client h2 {
+  font-size: var(--h2);
   color: var(--d_gray);
   font-weight: var(--fw-semi-bold);
 }
@@ -83,6 +87,7 @@ body {
 
 /* community area start */
 .community h2 {
+  font-size: var(--h2);
   color: var(--d_gray);
   font-weight: var(--fw-semi-bold);
 }
@@ -98,6 +103,7 @@ body {
 }
 
 .community-des h4 {
+  font-size: var(--h4);
   color: var(--d_gray);
   font-weight: var(--fw-semi-bold);
 }
@@ -105,6 +111,7 @@ body {
 
 /* pixelgrade area start */
 .pixelgrade h2 {
+  font-size: var(--h2);
   color: var(--d_gray);
   font-weight: var(--fw-semi-bold);
 }
@@ -122,6 +129,7 @@ body {
 
 /* achievement area start */
 .achievement-head h2 {
+  font-size: var(--h2);
   color: var(--d_gray);
   font-weight: var(--fw-semi-bold);
 }
@@ -136,12 +144,14 @@ body {
 }
 
 .achievement-detail h3 {
+  font-size: var(--h3);
   color: var(--d_gray);
 }
 /* achievement area end */
 
 /* design area start */
 .design h2 {
+  font-size: var(--h2);
   color: var(--d_gray);
   font-weight: var(--fw-semi-bold);
 }
@@ -164,6 +174,7 @@ body {
 }
 
 .testimonial h4 {
+  font-size: var(--h4);
   color: var(--green);
 }
 
@@ -173,48 +184,67 @@ body {
 
 .customer {
   width: 100%;
-  /* gap: 15rem; */
+}
+
+.customer img {
+  padding-right: 1.5rem;
 }
 
 .customer-more h5 {
+  font-size: var(--b1);
   color: var(--green);
+  width: 100%;
 }
 /* testimonial area end */
 
 /* marketing area start */
 .marketing {
   margin: 50px 70px 140px;
-  /* padding-bottom: 50px; */
   position: relative;
 }
 
 .marketing h2 {
+  font-size: var(--h2);
   color: var(--d_gray);
   font-weight: var(--fw-semi-bold);
 }
 
 .marketing p {
+  width: 50%;
   color: #717171;
   font-weight: var(--fw-semi-regular);
-  width: 50%;
 }
 
 .marketing-card-1 {
   border-radius: 8px;
   position: absolute;
-  width: 90%;
+  width: 100%;
   top: 80%;
   left: 65%;
   transform: translate(-50%, -50%);
 }
 
+.marketing-card-1 h5,
+.marketing-card-2 h5,
+.marketing-card-3 h5 {
+  font-size: var(--b1);
+  color: #717171;
+  font-weight: var(--fw-semi-bold);
+}
+
+.marketing-card-1 a,
+.marketing-card-2 a,
+.marketing-card-3 a {
+  color: var(--green);
+  font-weight: var(--fw-semi-bold);
+}
+
 .marketing-card-2 {
-  /* border: none; */
   border-radius: 8px;
   position: absolute;
-  width: 90%;
-  bottom: -44%;
-  left: 50%;
+  width: 100%;
+  top: 25%;
+  left: 65%;
   transform: translate(-50%, -50%);
   z-index: 100;
 }
@@ -222,8 +252,45 @@ body {
 .marketing-card-3 {
   border-radius: 8px;
   position: absolute;
-  width: 90%;
-  bottom: -36%;
-  right: -9%;
+  width: 100%;
+  top: 36%;
+  left: 65%;
   transform: translate(-50%, -50%);
 }
+/* marketing area end */
+
+/* demo area start */
+.demo h1 {
+  font-size: var(--h1);
+  font-weight: var(--fw-semi-bold);
+}
+
+.demo-btn {
+  background-color: var(--green);
+  border: none;
+}
+/* demo area end */
+
+/* footer area start */
+.foot {
+  background-color: var(--black);
+}
+
+.social-media img {
+  padding-right: 1rem;
+}
+
+.descrip h4 {
+  color: var(--white);
+  font-size: var(--h4);
+}
+
+.descrip a {
+  color: var(--silver);
+  font-size: var(--b3);
+}
+
+.latest-info input {
+  color: var(--silver);
+}
+/* footer area end */
